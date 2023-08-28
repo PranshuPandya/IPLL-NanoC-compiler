@@ -1,0 +1,88 @@
+<COMMENT, 1, // Find max of three numbers>
+<KEYWORD, 7, int>
+<ID, 10, main>
+<PUCNTUATOR, 16, (>
+<PUCNTUATOR, 15, )>
+<PUCNTUATOR, 18, {>
+<KEYWORD, 7, int>
+<ID, 10, x>
+<PUCNTUATOR, 37, =>
+<INTEGER CONSTANT, 11, 2>
+<PUCNTUATOR, 39, ;>
+<KEYWORD, 7, int>
+<ID, 10, y>
+<PUCNTUATOR, 37, =>
+<INTEGER CONSTANT, 11, 3>
+<PUCNTUATOR, 39, ;>
+<KEYWORD, 7, int>
+<ID, 10, z>
+<PUCNTUATOR, 37, =>
+<INTEGER CONSTANT, 11, 1>
+<PUCNTUATOR, 39, ;>
+<KEYWORD, 7, int>
+<ID, 10, m>
+<PUCNTUATOR, 39, ;>
+<ID, 10, m>
+<PUCNTUATOR, 37, =>
+<ID, 10, x>
+<PUCNTUATOR, 30, >>
+<ID, 10, y>
+<PUCNTUATOR, 28, ?>
+<ID, 10, x>
+<PUCNTUATOR, 38, :>
+<ID, 10, y>
+<PUCNTUATOR, 39, ;>
+<ID, 10, m>
+<PUCNTUATOR, 37, =>
+<ID, 10, m>
+<PUCNTUATOR, 30, >>
+<ID, 10, z>
+<PUCNTUATOR, 28, ?>
+<ID, 10, m>
+<PUCNTUATOR, 38, :>
+<ID, 10, z>
+<PUCNTUATOR, 39, ;>
+<ID, 10, printStr>
+<PUCNTUATOR, 16, (>
+<STRING_LITERAL, 13, "ma(x">
+<PUCNTUATOR, 15, )>
+<PUCNTUATOR, 39, ;>
+<ID, 10, printInt>
+<PUCNTUATOR, 16, (>
+<ID, 10, x>
+<PUCNTUATOR, 15, )>
+<PUCNTUATOR, 39, ;>
+<ID, 10, printStr>
+<PUCNTUATOR, 16, (>
+<STRING_LITERAL, 13, ", ">
+<PUCNTUATOR, 15, )>
+<PUCNTUATOR, 39, ;>
+<ID, 10, printInt>
+<PUCNTUATOR, 16, (>
+<ID, 10, y>
+<PUCNTUATOR, 15, )>
+<PUCNTUATOR, 39, ;>
+<ID, 10, printStr>
+<PUCNTUATOR, 16, (>
+<STRING_LITERAL, 13, ", ">
+<PUCNTUATOR, 15, )>
+<PUCNTUATOR, 39, ;>
+<ID, 10, printInt>
+<PUCNTUATOR, 16, (>
+<ID, 10, z>
+<PUCNTUATOR, 15, )>
+<PUCNTUATOR, 39, ;>
+<ID, 10, printStr>
+<PUCNTUATOR, 16, (>
+<STRING_LITERAL, 13, ") = ">
+<PUCNTUATOR, 15, )>
+<PUCNTUATOR, 39, ;>
+<ID, 10, printInt>
+<PUCNTUATOR, 16, (>
+<ID, 10, m>
+<PUCNTUATOR, 15, )>
+<PUCNTUATOR, 39, ;>
+<KEYWORD, 8, return>
+<INTEGER CONSTANT, 11, 0>
+<PUCNTUATOR, 39, ;>
+<PUCNTUATOR, 19, }>

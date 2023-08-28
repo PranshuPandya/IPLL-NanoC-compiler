@@ -1,0 +1,92 @@
+Welcome to the NanoC Compiler Interface developed by Pranshu Pandya and Pranshu Kandoi.
+=======================================================================================
+
+Parsing Succesfull.
+Table Name: Global       Parent Name: null
+=================================================================================================================================================
+| Name              | Type                                            | Initial Value                         | Size  | Offset  | Nested Table | 
+| printStr          | function(int,pointer(char))                     | not applicable                        | 0     | 0       | printStr       |
+
+| printInt          | function(int,int)                               | not applicable                        | 0     | 0       | printInt       |
+
+| readInt           | function(int,pointer(int))                      | not applicable                        | 0     | 0       | readInt        |
+
+| main              | function(int,null)                              | not applicable                        | 0     | 0       | main           |
+
+=================================================================================================================================================
+
+
+Table Name: printStr       Parent Name: Global
+=================================================================================================================================================
+| Name              | Type                                            | Initial Value                         | Size  | Offset  | Nested Table | 
+| ch                | pointer(char)                                   | undefined                             | 8     | 0       | null           |
+
+| retVal            | int                                             | undefined                             | 4     | 8       | null           |
+
+=================================================================================================================================================
+
+
+Table Name: printInt       Parent Name: Global
+=================================================================================================================================================
+| Name              | Type                                            | Initial Value                         | Size  | Offset  | Nested Table | 
+| n                 | int                                             | undefined                             | 4     | 0       | null           |
+
+| retVal            | int                                             | undefined                             | 4     | 4       | null           |
+
+=================================================================================================================================================
+
+
+Table Name: readInt       Parent Name: Global
+=================================================================================================================================================
+| Name              | Type                                            | Initial Value                         | Size  | Offset  | Nested Table | 
+| eP                | pointer(int)                                    | undefined                             | 8     | 0       | null           |
+
+| retVal            | int                                             | undefined                             | 4     | 8       | null           |
+
+=================================================================================================================================================
+
+
+Table Name: main       Parent Name: Global
+=================================================================================================================================================
+| Name              | Type                                            | Initial Value                         | Size  | Offset  | Nested Table | 
+| retVal            | int                                             | undefined                             | 4     | 0       | null           |
+
+| i                 | int                                             | undefined                             | 4     | 4       | null           |
+
+| t0                | int                                             | 0                                     | 4     | 8       | null           |
+
+| t1                | int                                             | 5                                     | 4     | 12      | null           |
+
+| t2                | int                                             | undefined                             | 4     | 16      | null           |
+
+| t3                | pointer(char)                                   | "\n"                                  | 8     | 20      | null           |
+
+| t4                | int                                             | undefined                             | 4     | 28      | null           |
+
+| t5                | int                                             | 1                                     | 4     | 32      | null           |
+
+| t6                | int                                             | undefined                             | 4     | 36      | null           |
+
+| t7                | int                                             | 0                                     | 4     | 40      | null           |
+
+=================================================================================================================================================
+
+
+0 : main : 
+1 : 		t0 = 0
+2 : 		i = t0
+3 : 		t1 = 5
+4 : 		if i < t1 goto 6
+5 : 		goto 15
+6 : 		param i
+7 : 		t2 = call printInt, 1
+8 : 		t3 = "\n"
+9 : 		param t3
+10 : 		t4 = call printStr, 1
+11 : 		t5 = 1
+12 : 		t6 = i + t5
+13 : 		i = t6
+14 : 		goto 3
+15 : 		t7 = 0
+16 : 		return t7
+17 : main : 
